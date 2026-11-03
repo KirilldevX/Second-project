@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: Figtree;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+}
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 370px;
+    padding: 20px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 6px 6px black;
+    border: 1px solid black;
+    border-radius: 15px;
+    gap: 15px;
+}
+.main {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.text {
+    width: 100%;
+}
+.author {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.opinion {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.learn {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(218, 44%, 22%);
+    padding: 30px;
+}
+.foot {
+    color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
